@@ -1,18 +1,14 @@
 package com.project.crudspring.model;
-import lombok.Setter;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 import lombok.Data;
-import lombok.Getter;
 
 
 @Data
 @Entity
-//@Table()
 public class Course {
     
     @Id
